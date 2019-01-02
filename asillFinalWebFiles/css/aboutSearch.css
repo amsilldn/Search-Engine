@@ -1,0 +1,92 @@
+/* natural box model */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* hides an element, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* no break */
+.nobr {
+    white-space: nowrap;
+}
+
+body {
+    background: #ffffff;
+    background-image: url('../images/fountain.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+}
+
+.header a {
+    color: #991b1e;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 200px;
+    background: #ffffff; */
+    opacity: 0.5;
+    line-height: .8em;
+}
+
+.row0 {
+    display: flex;
+    justify-content: center;
+    color: #991b1e;
+    font-size: 32px;
+}
+
+.hoosier {
+    font-family: 'Pacifico', cursive;
+    padding-top: 18px;
+}
+
+.logo {
+    padding-top: 26px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 65px;
+    /* background: #ffffff; */
+    line-height: 1.15em;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: .01em;
+}

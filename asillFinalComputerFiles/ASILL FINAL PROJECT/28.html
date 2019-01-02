@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>IU Bloomington: Campus Maps: Indiana University</title>
+<!-- CAMPUSBIRD DEMO STYLESHEET-->
+	<!--<link href="https://assets.iu.edu/brand/3.x/brand.css" rel="stylesheet" type="text/css"/>-->
+    <link href="https://assets.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="../common/css/campusbird.css"/>
+<!-- MOBILE SCREEN SUPPORT -->
+<!--	<meta name=“viewport” content=“width=device-width”>--> 
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+       <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+       <meta name="description" content="Indiana University Bloomington's official interactive online campus map. We encourage you to use this interactive campus map when you visit Indiana University Bloomington." /> 
+       <meta name="keywords" content="IU campus maps, Indiana Bloomingtion map, IU Bloomington map, IU Bloomington campus map, Bloomington Indiana map, Indiana University campus map, campus map, campus locations, map, web map, interactive map, online map, download map, print map." />       
+	<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-91188746-1', 'auto');
+             ga('send', 'pageview');
+    </script>    
+</head>
+
+<body>
+<!--
+<header>
+	<h1>Your Logo Here</h1>
+    <!--<div id="branding-bar" class="iu" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary" aria-labelledby="campus-name">
+	<div class="row pad">
+			<img src="//assets.iu.edu/brand/3.x/trident-large.png" alt="" />
+			<p id="iu-campus">
+				<a href="https://www.iu.edu" title="Indiana University">
+					<span id="campus-name" class="show-on-desktop" itemprop="name">Indiana University</span>
+					<span class="show-on-tablet" itemprop="name">Indiana University</span>
+					<span class="show-on-mobile" itemprop="name">IU</span>
+				</a>
+			</p>
+	</div>
+</div>
+</header>
+-->
+<h1 style="display:none;">IU Bloomington Map</h1>
+<!--<iframe id="map-frame" width="100%" src="https://www.myatlascms.com/embed.php?id=951" frameborder="0" scrolling="no" frameborder="0"></iframe>-->
+<iframe src="https://map.concept3d.com/?id=951" width="100%" height="100%" id="map_frame" frameBorder="0" scrolling="no" border="0" style="border:0px solid #fff; margin:0; padding:0;"><p>Your browser does not support iframes.</p></iframe>	
+	
+<!-- CAMPUSBIRD SCRIPT -->
+<script type=”text/javascript”>
+	$(document).ready(function(){
+	$('#map_frame').attr('src', $('#map_frame').attr('src') + window.location.hash);
+});
+</script>
+
+</body>
+</html>

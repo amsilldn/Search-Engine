@@ -1,0 +1,24 @@
+
+
+
+<!-- template name: form.autopost.template.html -->
+
+ 
+<html>
+    <head>
+        <title>Submit Form</title>
+        <meta name="referrer" content="origin"/>
+    </head>
+    <body onload="javascript:document.forms[0].submit()">
+       <noscript>
+            <p>
+                <strong>Note:</strong> Since your browser does not support JavaScript, you must press the Resume button once to proceed.
+            </p>
+        </noscript>
+        <form method="post" action="https://idp.iu.edu/shibboleth-idp/profile/SAML2/POST/SSO">
+                        <input type="hidden" name="SAMLRequest" value="PHNhbWxwOkF1dGhuUmVxdWVzdCBWZXJzaW9uPSIyLjAiIElEPSJtLS5yZzdiTDhSYVl3bk9ud2tNT0F5MkJ6MzAiIElzc3VlSW5zdGFudD0iMjAxOC0xMi0wOVQyMzoxNDowNy4xODNaIiB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIj48c2FtbDpJc3N1ZXIgeG1sbnM6c2FtbD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI+Ym94Lm5ldDwvc2FtbDpJc3N1ZXI+PHNhbWxwOk5hbWVJRFBvbGljeSBBbGxvd0NyZWF0ZT0idHJ1ZSIvPjwvc2FtbHA6QXV0aG5SZXF1ZXN0Pg=="/>
+                        <input type="hidden" name="RelayState" value="sSb827KnspLR31KgwtYafKuRSIofoX"/>
+                        <noscript><input type="submit" value="Resume"/></noscript>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+/* natural box model */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Browser Upgrade Prompt */
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* hides an element, but not from screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* no break */
+.nobr {
+    white-space: nowrap;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.top {
+    margin-top: 7px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header a {
+    padding-left: 10px;
+}
+
+body a {
+    color: #991b1e;
+    text-decoration: none;
+}
+
+.row0 {
+    display: flex;
+    justify-content: center;
+    color: #991b1e;
+    padding-left: 300px;
+    /* font-size: 32px; */
+}
+
+.hoosier {
+    font-family: 'Pacifico', cursive;
+    /* padding-top: 18px; */
+    margin-top: -7px;
+}
+
+.logo {
+    margin-top: -7px;
+    padding-top: 3px;
+}
+
+.results a {
+    font-size: 22px;
+}
+
+.search .submit {
+    background: #ffffff;
+    background-image: url('../images/70490.png');
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    border: 2px solid #ffffff;
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.submit {
+    text-indent: -99em;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 30px;
+}
